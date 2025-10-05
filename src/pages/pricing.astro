@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Pricing - Accletra">
+  <section class="py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">Pricing Plans</h1>
+      <p class="mt-4 text-lg">Choose the plan that's right for you.</p>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto">
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Free Plan -->
+        <div class="p-8 border rounded-lg text-center">
+          <h3 class="text-2xl font-bold">Free</h3>
+          <p class="mt-4 text-4xl font-bold">$0</p>
+          <p class="mt-2 text-gray-600">For personal projects</p>
+          <ul class="mt-8 space-y-4">
+            <li>1 Project</li>
+            <li>Community Support</li>
+          </ul>
+          <a href="#" class="mt-8 inline-block bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-semibold">Get Started</a>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="p-8 border-blue-600 border-2 rounded-lg text-center">
+          <h3 class="text-2xl font-bold">Pro</h3>
+          <p class="mt-4 text-4xl font-bold">$99</p>
+          <p class="mt-2 text-gray-600">For professional use</p>
+          <ul class="mt-8 space-y-4">
+            <li>Unlimited Projects</li>
+            <li>Priority Support</li>
+            <li>All Features</li>
+          </ul>
+          <a href="#" class="mt-8 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">Buy Now</a>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="p-8 border rounded-lg text-center">
+          <h3 class="text-2xl font-bold">Enterprise</h3>
+          <p class="mt-4 text-4xl font-bold">Contact Us</p>
+          <p class="mt-2 text-gray-600">For large teams</p>
+          <ul class="mt-8 space-y-4">
+            <li>Unlimited Projects</li>
+            <li>Dedicated Support</li>
+            <li>Custom Features</li>
+          </ul>
+          <a href="#" class="mt-8 inline-block bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-semibold">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
